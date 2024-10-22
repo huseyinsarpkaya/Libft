@@ -1,33 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/09 15:21:19 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:29:01 by husarpka         ###   ########.fr       */
+/*   Created: 2024/10/16 14:53:27 by husarpka          #+#    #+#             */
+/*   Updated: 2024/10/22 15:30:14 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
+char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	i;
-	size_t	dest_len;
-	size_t	src_len;
+	char	*finish;
+	int		len;
+	char	*buffer;
 
-	i = 0;
-	dest_len = ft_strlen(dst);
-	src_len = ft_strlen(src);
-	if (dstsize <= dest_len)
-		return (dstsize + src_len);
-	while (src[i] && dest_len + i < dstsize - 1)
-	{
-		dst[dest_len + i] = src[i];
-		i++;
-	}
-	dst[dest_len + i] = '\0';
-	return (dest_len + src_len);
+	finish = (char *)s1 + ft_strlen(s1) - 1;
+	while (*s1 && ft_strchr(set,*s1))
+		s1++;
+	while (finish > s1 && ft_strchr(set, *finish))
+		finish--;
+	len = finish - s1 + 1;
+	buffer = (char *)malloc(sizeof(char) * len + 1);
+	if (!buffer)
+		return (NULL);
+	ft_strlcpy(buffer, s1, len + 1);
+	return (buffer);
 }

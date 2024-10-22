@@ -3,29 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: husarpka <husarpka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:14:32 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/11 11:06:21 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/22 15:09:52 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include<stdio.h>
-#include <stddef.h>
-void    ft_bzero(void *s, size_t n)
-{
-    ft_memset(s,'\0',n);
 
-}
-/*
-int main()
+void	ft_bzero(void *s, size_t n)
 {
-    char s[]="aaaaaa";
-    size_t len =2;
-     ft_bzero(s,len);
-    printf("%c",s[1]);
-    
-    
-}*/
-// S stringin içerisine n bayt kadarlık kısmına null atar.
+	ft_memset(s, '\0', n);
+}

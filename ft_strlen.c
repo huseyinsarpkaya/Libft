@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: husarpka <husarpka@student.42kocaeli.com.  +#+  +:+       +#+        */
+/*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:21:48 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/08 16:44:14 by husarpka         ###   ########.tr       */
+/*   Updated: 2024/10/20 15:44:00 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stddef.h> 
+
+#include "libft.h"
+
 size_t	ft_strlen(const char *s)
 {
 	size_t	digit;

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: husarpka <husarpka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 17:02:06 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/15 14:25:32 by husarpka         ###   ########.tr       */
+/*   Updated: 2024/10/20 18:30:14 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_atoi(const char *str)
 	{
 		i++;
 	}
-	while ((str[i] == '+' || str[i] == '-'))
+	if ((str[i] == '+' || str[i] == '-'))
 	{
 		if (str[i] == '-')
 		{
@@ -33,16 +33,8 @@ int	ft_atoi(const char *str)
 	}
 	while (str[i] >= '0' && str[i] <= '9')
 	{
-		result = (str[i] - 48) + (result * 10);
+		result = (str[i] - '0') + (result * 10);
 		i++;
 	}
 	return (a * result);
 }
- /*
- #include<stdio.h>
- int main()
- {
-    char c[]="    ----+++-123";
-    printf("%d",ft_atoi(c));
-    
- }*/

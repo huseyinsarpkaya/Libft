@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: husarpka <husarpka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:16:35 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/11 10:34:51 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/22 15:10:48 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
-	return (c >= ' ' && c <= '~');
+	return (c >= 32 && c <= 126);
 }
-// Yazdırılılabilir karakterleri kontrol eder.

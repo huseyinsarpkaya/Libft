@@ -3,24 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: husarpka <husarpka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:48:48 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/10 10:04:33 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/22 15:30:29 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <ctype.h>
-#include <stdio.h>
-
-int    ft_tolower(int c)    
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-    c += 32;
-    return(c);
+	if (c >= 'A' && c <= 'Z')
+		c += 32;
+	return (c);
 }
-/*int main()
-{
-    printf("%c",ft_tolower('A'));
-}*/
