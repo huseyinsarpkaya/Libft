@@ -6,11 +6,12 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 11:19:52 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:04:27 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:05:14 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <sys/_types/_null.h>
+#include <sys/_types/_size_t.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

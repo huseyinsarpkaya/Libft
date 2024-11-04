@@ -6,11 +6,11 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 15:20:58 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:26:55 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/29 13:17:22 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <sys/_types/_size_t.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

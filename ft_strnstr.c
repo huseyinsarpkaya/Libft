@@ -6,11 +6,11 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/11 13:57:54 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:08:16 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:26:04 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <sys/_types/_size_t.h>
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {

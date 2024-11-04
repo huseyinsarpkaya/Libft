@@ -6,11 +6,11 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:45:05 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:27:32 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:09:45 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <sys/_types/_size_t.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {

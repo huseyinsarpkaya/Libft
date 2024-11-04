@@ -6,13 +6,13 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 19:36:37 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:26:27 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:03:18 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-int	ft_numberlen(int number)
+static int	ft_numberlen(int number)
 {
 	int	i;
 

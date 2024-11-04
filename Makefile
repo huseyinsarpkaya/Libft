@@ -1,5 +1,9 @@
 NAME = libft.a
 
+CC = cc
+
+CFLAGS = -Wall -Wextra -Werror 
+
 SRC = ft_bzero.c\
 	ft_atoi.c\
 	ft_isalnum.c\
@@ -36,10 +40,6 @@ SRC = ft_bzero.c\
 	ft_split.c\
 
 OBJ = $(SRC:.c=.o)
-
-CC = cc
-
-CFLAGS = -Wall -Wextra -Werror 
 
 all : $(NAME)
 

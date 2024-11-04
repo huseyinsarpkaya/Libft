@@ -6,11 +6,12 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 18:02:39 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:07:02 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:17:05 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <sys/_types/_null.h>
 
 char	*ft_strchr(const char *s, int c)
 {

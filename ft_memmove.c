@@ -6,11 +6,12 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:14:53 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 15:46:54 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:09:18 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <sys/_types/_null.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

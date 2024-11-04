@@ -6,11 +6,11 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 16:21:48 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/20 15:44:00 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/28 16:24:46 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <sys/_types/_size_t.h>
 
 size_t	ft_strlen(const char *s)
 {

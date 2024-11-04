@@ -6,13 +6,13 @@
 /*   By: husarpka <husarpka@student.42.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/08 12:48:02 by husarpka          #+#    #+#             */
-/*   Updated: 2024/10/22 11:59:10 by husarpka         ###   ########.fr       */
+/*   Updated: 2024/10/29 14:30:48 by husarpka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include <stddef.h>
+# include <sys/_types/_size_t.h>
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
